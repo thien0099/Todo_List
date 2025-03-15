@@ -5,26 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body>
     <div class="container">
         <img src="./image/DALL·E 2025-03-10 18.12.25 - A flat minimalist logo featuring the word 'Thien'. The design should use a clean, modern sans-serif font with a simple and elegant layout. The color s.webp" alt="" class="logo">
-                <div class="top"><a class="link"href="./index.html">Trang chủ</a></div>
-                <div class="top"><a class="link" href="./contact.html">Liên hệ</a></div>
-                <div class="top"><a class="link" href="./myself.html">Bản thân</a></div>
+        <input type="checkbox" id = "menuIcon">
+        <label for = "menuIcon" class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label> 
+        
+        <div class="navi">
+            <div class="task">
+                <p class="Cater">NHIỆM VỤ</p>
+                <div class="fun">
+                    
+                    <i class="fa-solid fa-square-plus"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Thêm công việc</a>
+                    </span>
+                </div>
+                <div class="fun">
+                    <i class="fa-solid fa-forward"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Nhiệm vụ sắp tới</a>
+                    </span>
+                </div>
+                <div class="fun">
+                    <i class="fa-solid fa-calendar-day"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Hôm nay</a>
+                    </span>
+                </div>
             </div>
-                     
-    </div>
+            <div class="task">
+                <p class="Cater">DANH MỤC</p>
+                <div class="fun">
+                    <i class="fa-regular fa-user"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Cá nhân</a>
+                    </span>
+                </div>
+            </div>
+            <div class="myself">
+                <div class="fun">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span class="fun" >Cài đặt</span>
+                </div>
+                <div class="fun">
+                    <i class="fa-regular fa-circle-user"></i>
+                    
+                    <span class="fun"  >Tài khoản</span>
+                </div>
+                
+            </div>
+        </div>   
+        <!-- <div class="top"><a class="link" href="./index.html">Trang chủ</a></div>
+        <div class="top"><a class="link" href="./contact.html">Liên hệ</a></div>
+        <div class="top"><a class="link" href="./myself.html">Bản thân</a></div> -->
+    </div>       
     <div class="back">
         
-        <div class="demo">
+        <!-- <div class="demo">
             <button class = "but">+</button>
             <p class="title" id="id1">Thêm nhiệm vụ</p>
         </div>
         <div class="content">
             <div class="demo1"><p class="title">Danh sách công việc</p></div>
             <div class="demo2"><p class="title">Thời khóa biểu</p></div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
