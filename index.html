@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>ToDoList</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="./image/DALL·E 2025-03-10 18.12.25 - A flat minimalist logo featuring the word 'Thien'. The design should use a clean, modern sans-serif font with a simple and elegant layout. The color s.webp" type="image/x-icon">
 
 </head>
 <body>
     <div class="container">
         <img src="./image/DALL·E 2025-03-10 18.12.25 - A flat minimalist logo featuring the word 'Thien'. The design should use a clean, modern sans-serif font with a simple and elegant layout. The color s.webp" alt="" class="logo">
         <div class="nameWeb1">
-            <p>Sign Up</p>
-            <p>Log In</p>
+            <p><a href="./contact.html" class="link">Sign Up</a></p>
+            <p><a href="./myself.html" class="link">Log In</a></p>
         </div>
     
     </div>       
@@ -31,7 +32,7 @@
         
         <div class="navi">
             <div class="task">
-                <p class="Cater">NHIỆM VỤ</p>
+                <p class="Cater">CÔNG VIỆC</p><br>
                 <div class="fun">
                     
                     <i class="fa-solid fa-square-plus"></i>
@@ -51,9 +52,15 @@
                         <a href="#" class="link">Hôm nay</a>
                     </span>
                 </div>
+                <div class="fun">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Thời khoá biểu</a>
+                    </span>
+                </div>
             </div>
             <div class="task">
-                <p class="Cater">DANH MỤC</p>
+                <p class="Cater">DANH MỤC</p><br>
                 <div class="fun">
                     <i class="fa-solid fa-user"></i>
                     <span class="fun">
@@ -61,13 +68,20 @@
                     </span>
                 </div>
                 <div class="fun">
-                    <i class="fa-solid fa-users"></i>
+                    <i class="fa-solid fa-user-group"></i>
                     <span class="fun">
                         <a href="#" class="link">Nhóm</a>
                     </span>
                 </div>
+                <div class="fun">
+                    <i class="fa-solid fa-plus"></i>
+                    <span class="fun">
+                        <a href="#" class="link">Thêm</a>
+                    </span>
+                </div>
             </div>
             <div class="myself">
+                <hr>
                 <div class="fun">
                     <i class="fa-solid fa-sliders"></i>
                     <span class="fun" >Cài đặt</span>
@@ -83,7 +97,8 @@
         <div class="back">
             <h1>Chào mừng đến với ToDoList!</h1>
             <div class="authored">
-                <h6>authored by Minh Thien</h6>
+                <i class="fa-regular fa-copyright"><span> authored by Minh Thien</span></i>
+                
             </div>
             <!-- <div class="demo">
                 <button class = "but">+</button>

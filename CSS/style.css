@@ -152,7 +152,7 @@ body{
 .menu i{
     color:#F8b195;
     padding: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .navi{
     position:absolute;
@@ -181,7 +181,7 @@ body{
 .myself{
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    margin-left: 30px;
     text-align: center;
     font-size: medium;
     color: #F8b195;
@@ -227,10 +227,17 @@ body{
 .fun:hover{
     font-weight: bold;
     background-color:#355c7d;
+    /* margin-left: -px; */
+    
 }
+
 .authored{
     position: absolute;
     right: 10px;
-    bottom: 0px;
+    bottom: -40px;
     font-style:unset;
+    font-size: 15px;
+}
+hr{
+    width: 240px;
 }
