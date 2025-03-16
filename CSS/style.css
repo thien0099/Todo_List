@@ -27,8 +27,6 @@ body{
     gap: 20px;
     margin-right: 10px;
     color: #F8b195;
-}
-.nameWeb1{
     cursor: pointer;
 }
 .container{
@@ -170,7 +168,7 @@ body{
 }
 #menuIcon:checked ~ .back {
     margin-left: 300px; /* Dịch nội dung sang phải 300px */
-    width: calc(100% - 300px); Co lại theo kích thước menu
+    width: calc(100% - 300px); /*Co lại theo kích thước menu*/
     margin-right: -300px;
     transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out, margin-right 0.3s ease-in-out;
 }
