@@ -116,7 +116,7 @@ body{
     align-items: center;
 }
 .back{
-    min-width: 100%;
+    max-width: 100%;
     height: 100vh;
     background-color: #2C2C2E;
     flex-direction: column;
@@ -125,18 +125,22 @@ body{
     display: flex;
     /* margin-left: -300px;
     transition: margin-left 0.3s ease-in-out; */
+    /* max-height: 100%; */
 }
 #menuIcon{
     display:none;
 }
 .menu{
+    position: absolute;
+    top: 45px;
     width: 45px;
+    left: 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     cursor: pointer;
 }
-.menu span{
+/* .menu span{
     display: block;
     height: 3px;
     width: 35px;
@@ -144,6 +148,11 @@ body{
     background-color:#F8b195;
     margin: 9px;
     border-radius: 10px;
+} */
+.menu i{
+    color:#F8b195;
+    padding: 10px;
+    font-size: 30px;
 }
 .navi{
     position:absolute;
@@ -164,6 +173,10 @@ body{
     width: calc(100% - 300px); Co lại theo kích thước menu
     margin-right: -300px;
     transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out, margin-right 0.3s ease-in-out;
+}
+#menuIcon:checked ~ .menu{
+    left: 300px;
+    transition: left 0.3s ease-in-out;
 }
 .myself{
     position: absolute;
