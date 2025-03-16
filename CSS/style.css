@@ -228,3 +228,9 @@ body{
     font-weight: bold;
     background-color:#355c7d;
 }
+.authored{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-style:unset;
+}
