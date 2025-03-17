@@ -62,11 +62,11 @@ body{
     align-items: center;
     flex-direction: column;
     display: flex;
-    min-width: 200px;
+    min-width: 260px;
 
 }
 .tit{
-    min-width: 200px;
+    min-width: 260px;
     height: 45px;
     width: 30%;
     background-color:#2968ab;
@@ -141,7 +141,7 @@ h3{
     width: 100px;
     border-radius: 50px;
     position: relative;
-    bottom: 100px;
+    bottom: 50px;
 }
 button{
     background-color: aqua;
@@ -157,4 +157,18 @@ button:hover{
 }
 button:checked{
     cursor: progress;
+}
+.element{
+    border: none;
+    width: 190px;
+    height: 25px;
+    background-color: #2968ab;
+    border-bottom:solid #2C2C2E 1px;
+}
+.element:focus{
+    /* border: none; */
+    outline: none;
+}
+.element::placeholder{
+    color: #2C2C2E;
 }
