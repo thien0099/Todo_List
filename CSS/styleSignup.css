@@ -15,6 +15,7 @@
 .logo{
     width: 45px;
     height: 45px;
+    
 }
 body{
     margin: 0;
@@ -50,27 +51,110 @@ body{
 }
 .Shape{
     background-color: #2968ab;
-    /* padding: 10px; */
-    border-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     width: 30%;
     height: 75%;
     text-align: center;
     border:solid #36bebc 5px;
+    border-top: 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
+    min-width: 200px;
+
 }
 .tit{
-    position: absolute;
-    top: 100px
-    /* padding: 10px; */
+    min-width: 200px;
+    height: 45px;
+    width: 30%;
+    background-color:#2968ab;
+    border:solid #36bebc 5px;
+    border-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    position: relative;
 }
 .Line{
     /* background-color: #2C2C2E; */
     width: 75%;
     height: 40px;
     /* padding: 10px; */
-    border-radius: 15px;
-    border: solid white;
+    /* border-radius: 15px; */
+    /* border: solid white; */
+}
+#signup{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 50%;
+    
+}
+#signup1{
+
+}
+#simple{
+    display: none;
+}
+#exit{
+    position: absolute;
+    top: 15px;
+    right: 15px; 
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; /* Bo góc nhẹ nếu cần */
+    /* margin: 20px;  */
+    /* margin-left: auto;
+    height: 15px; */
+    font-size:x-large;
+    font-weight: lighter;
+}
+#exit:hover{
+    background: rgba(255, 255, 255, 0.2); /* Tạo nền nhẹ để dễ nhìn */
+
+}
+h1{
+    color: #F8b195;
+    font-weight: 500;
+}
+h3{
+    font-weight: lighter;
+    color: #F8b195;
+}
+.field{
+    color:aliceblue ;
+    font-size: small;
+    width: 100%;
+    height: 35%;
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+}
+.field:hover{
+    cursor: text;
+}
+.log{
+    width: 100px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 100px;
+}
+button{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+}
+button:hover{
+    color:rgb(44, 212, 212);
+    cursor: pointer;
+    /* cursor: progress; */
+}
+button:checked{
+    cursor: progress;
 }
