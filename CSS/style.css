@@ -167,6 +167,8 @@ body{
     left: 0;
 }
 #menuIcon:checked ~ .back {
+    overflow: hidden; /* Ẩn phần vượt quá */
+
     margin-left: 300px; /* Dịch nội dung sang phải 300px */
     width: calc(100% - 300px); /*Co lại theo kích thước menu*/
     margin-right: -300px;
