@@ -41,6 +41,9 @@ body{
 .link{
     color: #F8b195;
     text-decoration: none;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .logo{
     width: 45px;
@@ -246,6 +249,10 @@ hr{
     border-radius: 50px;
     position: relative;
     bottom: 50px;
-    mix-blend-mode: multiply;
-    filter: hue-rotate(180deg);
+    /* mix-blend-mode: multiply;
+    filter: hue-rotate(180deg); */
+}
+#click:hover{
+    background-color:#42719a;
+    border-radius: 5px;
 }
