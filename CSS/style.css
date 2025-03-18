@@ -156,8 +156,8 @@ body{
     position:absolute;
     top: 45px;
     background-color:#37373d;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
     height: 100vh;
     min-width: 300px;
     left: -300px;
@@ -240,4 +240,12 @@ body{
 }
 hr{
     width: 240px;
+}
+.log{
+    width: 200px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 50px;
+    mix-blend-mode: multiply;
+    filter: hue-rotate(180deg);
 }
