@@ -40,6 +40,9 @@ body{
 .link{
     color: #F8b195;
     text-decoration: none;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .nameWeb1{
     margin-left: auto; /* Đẩy Sign Up & Log In sang phải */
@@ -168,4 +171,8 @@ button:checked{
 }
 .element::placeholder{
     color: #2C2C2E;
+}
+#click:hover{
+    background-color:#355877;
+    border-radius: 5px;
 }
